@@ -17,5 +17,16 @@ This is the admin dashboard where you can create keys. The keys are intended for
 
 You can also configure a Callback URL here, where you will be updated regarding state changes to your payments (such as when a user pays, a session times out, or the user declines). This is usually used in conjunction with automated checkouts.
 
+<figure><img src="../.gitbook/assets/image (5).png" alt=""><figcaption><p>Flow of funds from the user to you</p></figcaption></figure>
+
+### Payment timeframes
+
+* Natively through Orbital Pay: Couple of seconds (typically 2s - 3s)
+* Aptos Wallets: Couple of seconds (typically 2s - 3s)
+* Solana Wallets: Around a minute (typically 40s - 1m)
+* EVM Chains: Around 15 minutes
+
+For EVM Chains, we depend upon the source chain to finalize, which takes 12-13 minutes according to EVM's consensus mechanism and is outside our control. However almost all transactions which show `processing` will be finalized.
+
 
 
