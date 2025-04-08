@@ -21,9 +21,10 @@ You can also configure a Callback URL here, where you will be updated regarding 
 
 ### Payment timeframes
 
-* Natively through Orbital Pay: Couple of seconds (typically 2s - 3s)
-* Aptos Wallets: Couple of seconds (typically 2s - 3s)
+* Natively through Orbital Pay: Couple of seconds (typically less than 2s)
+* Aptos Wallets: Couple of seconds (typically 2s - 5s)
 * Solana Wallets: Around a minute (typically 40s - 1m)
+* Sui Wallets: Around a minute (typically 30s - 1m)
 * EVM Chains: Around 15 minutes
 
 For EVM Chains, we depend upon the source chain to finalize, which takes 12-13 minutes according to EVM's consensus mechanism and is outside our control. However almost all transactions which show `processing` will be finalized.
