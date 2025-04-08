@@ -5,7 +5,7 @@ icon: cart-arrow-down
 
 # Onboarding as a merchant
 
-We soon plan to open up this process for everyone. For now, this section is for people onboarded as a merchant.
+We soon plan to open up this process for everyone. For now, this section is for people onboarded as a merchant. If you want prioritised access to Orbital Pay's Merchant Console, please [fill this form](https://docs.google.com/forms/d/e/1FAIpQLSeJKaRmqXK93pIv1ZDUMxd-OczuKJUULxybK6qkUyBV1J8UUw/viewform?usp=dialog).
 
 <figure><img src="../.gitbook/assets/merchant page.jpeg" alt=""><figcaption><p>Merchant Console</p></figcaption></figure>
 
