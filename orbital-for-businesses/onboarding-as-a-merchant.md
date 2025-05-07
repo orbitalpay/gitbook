@@ -29,5 +29,9 @@ You can also configure a Callback URL here, where you will be updated regarding 
 
 For EVM Chains, we depend upon the source chain to finalize, which takes 12-13 minutes according to EVM's consensus mechanism and is outside our control. However almost all transactions which show `processing` will be finalized.
 
+## **Fee structure:**
+
+<table><thead><tr><th width="97.79998779296875">Index</th><th>Amount in $</th><th>Fees in $</th></tr></thead><tbody><tr><td>1</td><td>&#x3C;20</td><td>$0.1 flat</td></tr><tr><td>2</td><td>20-1000</td><td>0.5% of Amount</td></tr><tr><td>3</td><td>>1000</td><td>$5 flat</td></tr></tbody></table>
+
 
 
